@@ -80,3 +80,7 @@ footer{border-top:1px solid #3b7e9855;padding-top:18px;color:#8fb9cc}
 @keyframes reactor{0%,100%{filter:brightness(.9);transform:scale(.97)}50%{filter:brightness(1.35);transform:scale(1.03)}}
 @media(prefers-reduced-motion:reduce){.mark,.hero:before,.hero:after{animation:none!important}}
 @media(max-width:830px){.hero:before{width:95px;height:95px;right:8%;top:15%;opacity:.35}.hero:after{opacity:.3}}
+
+/* Logo Uipali in sidebar */
+.mark.mark-logo{display:inline-flex;align-items:center;justify-content:center;overflow:hidden;background:#071827;clip-path:none;border:1px solid #58e8ff;border-radius:50%;box-shadow:0 0 20px #4cecff70;animation:none;flex-shrink:0}
+.mark.mark-logo img{width:100%;height:100%;object-fit:cover;display:block}

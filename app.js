@@ -103,11 +103,7 @@ function guideFor(p){
 function gallery(){
  $('#app').innerHTML=`<a class="back" href="#/">← Retour aux catégories</a><div class="hero"><div class="overline">RESSOURCES / MODÈLES OFFICIELS</div><h1>Bibliothèque des modèles</h1><p>Les ${MODEL_LIBRARY.length} définitions de modèles du resource pack. Les modèles avec géométrie sont affichés en 3D, les modèles plats utilisent leur texture officielle.</p></div><div class="grid">${MODEL_LIBRARY.map(id=>{const art=MODELS[id]?ModelViewer.viewer(id):MODEL_SPRITES[id]?`<img src="${MODEL_SPRITES[id]}" alt="${escape(id)}">`:'<span class="noart">Modèle sans géométrie ni texture utilisable</span>';return `<div class="card"><div class="visual">${art}</div><div class="cardbody"><h3>${escape(id.split(':')[1].replaceAll('_',' '))}</h3><p>${escape(id.split(':')[0])} • ${MODELS[id]?'Modèle 3D':MODEL_SPRITES[id]?'Modèle plat':'Aperçu non disponible'}</p></div></div>`}).join('')}</div>`;
 }
-function navbar(){
-  $('#nav').innerHTML = C.map(c =>
-    `<a class="nav-item" href="#/categorie/${c.id}">${escape(c.icon)} &nbsp; ${escape(c.name)}</a>`
-  ).join('');
-}
+function navbar(){ $('#nav').innerHTML=C.map(c=>`<a class="nav-item" href="#/categorie/${c.id}">${escape(c.icon)} &nbsp; ${escape(c.name)}</a>`).join(''); }
 function card(p){return `<a class="card" href="#/item/${p.id}"><div class="visual"><span class="tag">${escape(p.categoryName)}</span>${art(p.hero)}</div><div class="cardbody"><h3>${escape(p.name)}</h3><p>${escape(p.description)}</p><div class="cardlink"><span>Explorer le wiki</span><span>↗</span></div></div></a>`;}
 function categoryCard(c){
  const count=c.items.length;
