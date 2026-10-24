@@ -1,0 +1,14 @@
+SURVIE HARDCORE — CORRECTION DES INGREDIENTS PERSONNALISES
+
+Dans les crafts du Boomerang :
+- Netherite Upgrade Smithing Template = Trim Portée ou Trim Shadow selon la recette
+- Jigsaw = Boomerang personnalisé
+
+Dans les crafts d’amélioration du Maillet :
+- Iron Nugget = Trim correspondant (Rebond, Séisme, Onde, Propulsion)
+- Warped Fungus on a Stick = Maillet de Harley Quinn personnalisé
+
+Dans les recettes de duplication, le trim personnalisé apparaît aussi à la place de l’objet de base.
+Ces remplacements ne changent PAS les recettes Minecraft ; ils ne changent que leur représentation dans le wiki.
+
+Décompresser puis ouvrir index.html.

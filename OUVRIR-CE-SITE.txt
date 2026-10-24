@@ -1,0 +1,4 @@
+IMPORTANT : ouvre le fichier index.html DE CE DOSSIER.
+Tu dois voir « Choisis ton univers — 5 catégories » sur l’accueil.
+Ne réutilise pas l’ancien dossier Survie-Hardcore-Wiki.
+Si nécessaire, ferme l’ancien onglet et ouvre ce nouvel index.html.

@@ -1,0 +1,319 @@
+[
+  {
+    "id": "star-wars",
+    "name": "Star Wars",
+    "icon": "✦",
+    "items": [
+      {
+        "id": "ezra",
+        "name": "Sabre-blaster d’Ezra",
+        "hero": "ezra:sabre_vide",
+        "recipes": [
+          "ezra:sabre_vide",
+          "ezra:installer_blanc",
+          "ezra:installer_bleu",
+          "ezra:installer_bleu_clair",
+          "ezra:installer_cyan",
+          "ezra:installer_jaune",
+          "ezra:installer_magenta",
+          "ezra:installer_noir",
+          "ezra:installer_orange",
+          "ezra:installer_rouge",
+          "ezra:installer_vert",
+          "ezra:installer_vert_jaune",
+          "ezra:installer_violet",
+          "ezra:sabre_direct_blanc",
+          "ezra:sabre_direct_bleu",
+          "ezra:sabre_direct_bleu_clair",
+          "ezra:sabre_direct_cyan",
+          "ezra:sabre_direct_jaune",
+          "ezra:sabre_direct_magenta",
+          "ezra:sabre_direct_noir",
+          "ezra:sabre_direct_orange",
+          "ezra:sabre_direct_rouge",
+          "ezra:sabre_direct_vert",
+          "ezra:sabre_direct_vert_jaune",
+          "ezra:sabre_direct_violet"
+        ],
+        "description": "Choisis la couleur et la méthode de fabrication du sabre-blaster.",
+        "category": "star-wars"
+      },
+      {
+        "id": "kyber",
+        "name": "Cristaux Kyber",
+        "hero": "ezra:kyber_vierge",
+        "recipes": [
+          "ezra:kyber_vierge",
+          "ezra:cristal_blanc",
+          "ezra:cristal_bleu",
+          "ezra:cristal_bleu_clair",
+          "ezra:cristal_cyan",
+          "ezra:cristal_jaune",
+          "ezra:cristal_magenta",
+          "ezra:cristal_noir",
+          "ezra:cristal_orange",
+          "ezra:cristal_rouge",
+          "ezra:cristal_vert",
+          "ezra:cristal_vert_jaune",
+          "ezra:cristal_violet"
+        ],
+        "description": "Cristal vierge et déclinaisons colorées, avec leur fabrication.",
+        "category": "star-wars"
+      },
+      {
+        "id": "xwing",
+        "name": "X-Wing T-65",
+        "hero": "xwing:xwing",
+        "recipes": [
+          "xwing:xwing",
+          "xwing:speed2",
+          "xwing:speed3",
+          "xwing:laser",
+          "xwing:wrench",
+          "xwing:guide"
+        ],
+        "description": "Véhicule et équipements associés : modules, canons et clé à molette.",
+        "category": "star-wars"
+      },
+      {
+        "id": "wrench",
+        "name": "Clé à molette",
+        "hero": "xwing:wrench",
+        "recipes": [
+          "xwing:wrench"
+        ],
+        "description": "Outil lié aux équipements du X-Wing.",
+        "category": "star-wars"
+      },
+      {
+        "id": "speed2",
+        "name": "Module Vitesse 2",
+        "hero": "xwing:speed2",
+        "recipes": [
+          "xwing:speed2"
+        ],
+        "description": "Amélioration de vitesse du X-Wing.",
+        "category": "star-wars"
+      },
+      {
+        "id": "speed3",
+        "name": "Module Vitesse 3",
+        "hero": "xwing:speed3",
+        "recipes": [
+          "xwing:speed3"
+        ],
+        "description": "Amélioration avancée de vitesse du X-Wing.",
+        "category": "star-wars"
+      },
+      {
+        "id": "laser",
+        "name": "Module Canons laser",
+        "hero": "xwing:laser",
+        "recipes": [
+          "xwing:laser"
+        ],
+        "description": "Module d’armement du X-Wing.",
+        "category": "star-wars"
+      }
+    ]
+  },
+  {
+    "id": "equipement",
+    "name": "Équipement",
+    "icon": "◈",
+    "items": [
+      {
+        "id": "boomerang",
+        "name": "Boomerang",
+        "hero": "boomerang:boomerang",
+        "recipes": [
+          "boomerang:boomerang",
+          "boomerang:portee_1",
+          "boomerang:shadow_1",
+          "boomerang:duplicate_portee_template",
+          "boomerang:guide",
+          "boomerang:shadow_template_duplication"
+        ],
+        "description": "Boomerang et améliorations associées, réunis dans un seul guide.",
+        "category": "equipement"
+      },
+      {
+        "id": "bottes",
+        "name": "Bottes du vent",
+        "hero": "windboots:wind_boots",
+        "recipes": [
+          "windboots:wind_boots"
+        ],
+        "description": "Bottes spéciales avec capacités de déplacement.",
+        "category": "equipement"
+      },
+      {
+        "id": "casque",
+        "name": "Casque de mineur",
+        "hero": "mineur:miner_helmet",
+        "recipes": [
+          "mineur:miner_helmet"
+        ],
+        "description": "Équipement du mineur.",
+        "category": "equipement"
+      },
+      {
+        "id": "marteau",
+        "name": "Marteau de mineur",
+        "hero": "hammer:hammer",
+        "recipes": [
+          "hammer:hammer"
+        ],
+        "description": "Outil spécial du mineur.",
+        "category": "equipement"
+      }
+    ]
+  },
+  {
+    "id": "chaos",
+    "name": "Chaos",
+    "icon": "✺",
+    "items": [
+      {
+        "id": "maillet",
+        "name": "Maillet de Harley Quinn",
+        "hero": "maillet:maillet",
+        "recipes": [
+          "maillet:maillet",
+          "maillet:rebond",
+          "maillet:seisme",
+          "maillet:onde",
+          "maillet:propulsion"
+        ],
+        "description": "Maillet et quatre améliorations : Rebond, Séisme, Onde, Propulsion.",
+        "category": "chaos"
+      },
+      {
+        "id": "chaoscard",
+        "name": "Jeu du Chaos Maudit",
+        "hero": "chaoscard:chaoscard",
+        "recipes": [
+          "chaoscard:chaoscard"
+        ],
+        "description": "Objet spécial de l’univers Chaos.",
+        "category": "chaos"
+      }
+    ]
+  },
+  {
+    "id": "anime",
+    "name": "Anime",
+    "icon": "⬡",
+    "items": [
+      {
+        "id": "odm",
+        "name": "Équipement tridimensionnel",
+        "hero": "odm:odm_gear",
+        "recipes": [
+          "odm:odm_gear",
+          "odm:canister",
+          "odm:station"
+        ],
+        "description": "Équipement ODM avec ses bonbonnes et sa station.",
+        "category": "anime"
+      },
+      {
+        "id": "canister",
+        "name": "Bonbonne ODM",
+        "hero": "odm:canister",
+        "recipes": [
+          "odm:canister"
+        ],
+        "description": "Composant de l’équipement tridimensionnel.",
+        "category": "anime"
+      },
+      {
+        "id": "station",
+        "name": "Station ODM",
+        "hero": "odm:station",
+        "recipes": [
+          "odm:station"
+        ],
+        "description": "Station liée à l’équipement tridimensionnel.",
+        "category": "anime"
+      },
+      {
+        "id": "passe",
+        "name": "Passe du Soleil",
+        "hero": "rhitta:passe",
+        "recipes": [
+          "rhitta:passe"
+        ],
+        "description": "Déclenche l’épreuve solaire pour obtenir Rhitta, la Hache sacrée, puis découvre ses deux pouvoirs.",
+        "category": "anime"
+      }
+    ]
+  },
+  {
+    "id": "trim",
+    "name": "Trims",
+    "icon": "◇",
+    "items": [
+      {
+        "id": "trim-rebond",
+        "name": "Trim Rebond",
+        "hero": "maillet:duplicate_rebond",
+        "recipes": [
+          "maillet:duplicate_rebond"
+        ],
+        "description": "Modèle de forge lié à Rebond.",
+        "category": "trim"
+      },
+      {
+        "id": "trim-seisme",
+        "name": "Trim Séisme",
+        "hero": "maillet:duplicate_seisme",
+        "recipes": [
+          "maillet:duplicate_seisme"
+        ],
+        "description": "Modèle de forge lié à Séisme.",
+        "category": "trim"
+      },
+      {
+        "id": "trim-onde",
+        "name": "Trim Onde",
+        "hero": "maillet:duplicate_onde",
+        "recipes": [
+          "maillet:duplicate_onde"
+        ],
+        "description": "Modèle de forge lié à Onde.",
+        "category": "trim"
+      },
+      {
+        "id": "trim-propulsion",
+        "name": "Trim Propulsion",
+        "hero": "maillet:duplicate_propulsion",
+        "recipes": [
+          "maillet:duplicate_propulsion"
+        ],
+        "description": "Modèle de forge lié à Propulsion.",
+        "category": "trim"
+      },
+      {
+        "id": "trim-portee",
+        "name": "Trim Portée",
+        "hero": "boomerang:duplicate_portee_template",
+        "recipes": [
+          "boomerang:duplicate_portee_template"
+        ],
+        "description": "Modèle de forge lié au Boomerang.",
+        "category": "trim"
+      },
+      {
+        "id": "trim-shadow",
+        "name": "Trim Shadow",
+        "hero": "boomerang:shadow_template_duplication",
+        "recipes": [
+          "boomerang:shadow_template_duplication"
+        ],
+        "description": "Modèle de forge lié au Boomerang.",
+        "category": "trim"
+      }
+    ]
+  }
+]
